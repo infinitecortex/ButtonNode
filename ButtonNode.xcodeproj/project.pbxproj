@@ -15,6 +15,7 @@
 		4DE18E301C0B515800517DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE18E2E1C0B515800517DF0 /* Main.storyboard */; };
 		4DE18E321C0B515800517DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE18E311C0B515800517DF0 /* Assets.xcassets */; };
 		4DE18E351C0B515800517DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE18E331C0B515800517DF0 /* LaunchScreen.storyboard */; };
+		4DE18E3E1C0B558300517DF0 /* ButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE18E3D1C0B558300517DF0 /* ButtonNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4DE18E311C0B515800517DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE18E341C0B515800517DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE18E361C0B515800517DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE18E3C1C0B558300517DF0 /* ButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNode.h; sourceTree = "<group>"; };
+		4DE18E3D1C0B558300517DF0 /* ButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				4DE18E261C0B515800517DF0 /* GameScene.h */,
 				4DE18E271C0B515800517DF0 /* GameScene.m */,
 				4DE18E291C0B515800517DF0 /* GameScene.sks */,
+				4DE18E3C1C0B558300517DF0 /* ButtonNode.h */,
+				4DE18E3D1C0B558300517DF0 /* ButtonNode.m */,
 				4DE18E2B1C0B515800517DF0 /* GameViewController.h */,
 				4DE18E2C1C0B515800517DF0 /* GameViewController.m */,
 				4DE18E2E1C0B515800517DF0 /* Main.storyboard */,
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE18E2D1C0B515800517DF0 /* GameViewController.m in Sources */,
+				4DE18E3E1C0B558300517DF0 /* ButtonNode.m in Sources */,
 				4DE18E251C0B515800517DF0 /* AppDelegate.m in Sources */,
 				4DE18E281C0B515800517DF0 /* GameScene.m in Sources */,
 				4DE18E221C0B515800517DF0 /* main.m in Sources */,
