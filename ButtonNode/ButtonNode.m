@@ -1,7 +1,7 @@
 //
 //  ButtonNode.m
 //  Created by Mark Johnson on 6/11/14.
-//  Copyright (c) 2015 Infinite Cortex LLC. All rights reserved.
+//  Copyright (c) 2016 Infinite Cortex LLC. All rights reserved.
 //
 
 #import "ButtonNode.h"

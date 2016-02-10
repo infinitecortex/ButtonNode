@@ -1,7 +1,7 @@
 //
 //  ButtonNode.h
 //
-//  Copyright (c) 2015 Infinite Cortex LLC. All rights reserved.
+//  Copyright (c) 2016 Infinite Cortex LLC. All rights reserved.
 //
 
 #import <SpriteKit/SpriteKit.h>
