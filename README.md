@@ -20,7 +20,7 @@ The v2.0.0 update extends the ButtonNode class to allow the button to be enabled
 
 ![SpriteKit Button](http://blog.infinitecortex.com/wp-content/uploads/2016/02/ButtonNodeEnable-272x182.png "SpriteKit Button")
 
-Details about the ButtonNode implementation can be found in the [ButtonNode](http://blog.infinitecortex.com/2016/02/buttonnode-with-enable/) blog post.
+Details about the ButtonNode Enable/Disable feature can be found in the [ButtonNode](http://blog.infinitecortex.com/2016/02/buttonnode-with-enable/) blog post.
 
 ---
 
