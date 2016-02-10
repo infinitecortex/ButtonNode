@@ -100,7 +100,7 @@
     }
 }
 
-// Setter for the enable property.  Update the botton based on the new state
+// Setter for the enable property.  Update the button based on the new state
 - (void)setEnable:(BOOL)enable {
         if (enable) {
             self.userInteractionEnabled = YES;
