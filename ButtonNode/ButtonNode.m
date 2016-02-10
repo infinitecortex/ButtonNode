@@ -35,6 +35,7 @@
         self.selector = selector;
         self.userInteractionEnabled = true;
         self.color = [SKColor grayColor];
+        self.enable = YES;
     }
     return self;
 }
@@ -46,6 +47,7 @@
         self.selector = selector;
         self.userInteractionEnabled = true;
         self.color = [SKColor grayColor];
+        self.enable = YES;
     }
     return self;
 }
@@ -91,11 +93,23 @@
     }
 }
 
-// When activated the button will selector on the target to invode the buttons action
+// When activated the button will call the selector on the target to invoke the buttons action
 - (void)activateButton{
     if (self.target != nil && [self.target respondsToSelector:self.selector]){
         [self.target performSelectorOnMainThread:(self.selector) withObject:self waitUntilDone:NO];
     }
+}
+
+// Setter for the enable property.  Update the botton based on the new state
+- (void)setEnable:(BOOL)enable {
+        if (enable) {
+            self.userInteractionEnabled = YES;
+            self.alpha = 1.0;
+        } else {
+            self.userInteractionEnabled = NO;
+            self.alpha = 0.5;
+        }
+        _enable = enable;
 }
 
 @end
